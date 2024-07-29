@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Home Clone</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">facebook</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <div class="profile">
+            <span class="profile-name">User</span>
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+    </header>
+    <div class="main-container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Groups</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="post-form">
+                <textarea placeholder="What's on your mind, User?"></textarea>
+                <button>Post</button>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="profile.jpg" alt="Profile Picture">
+                        <div class="post-info">
+                            <span class="post-author">User</span>
+                            <span class="post-time">Just now</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        This is a sample post.
+                    </div>
+                </div>
+                <!-- Add more posts here -->
+            </div>
+        </div>
+        <aside class="right-sidebar">
+            <h3>Contacts</h3>
+            <ul>
+                <li><a href="#">Friend 1</a></li>
+                <li><a href="#">Friend 2</a></li>
+                <li><a href="#">Friend 3</a></li>
+            </ul>
+        </aside>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+</html>
